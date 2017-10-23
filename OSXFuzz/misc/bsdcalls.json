@@ -1,0 +1,6016 @@
+[
+    [
+        "0", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "1", 
+        "void", 
+        "exit", 
+        "1", 
+        "int rval", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c"
+    ], 
+    [
+        "2", 
+        "int", 
+        "fork", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_fork.c"
+    ], 
+    [
+        "3", 
+        "user_ssize_t", 
+        "read", 
+        "3", 
+        "int fd", 
+        "user_addr_t cbuf", 
+        "user_size_t nbyte", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/macho.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py"
+    ], 
+    [
+        "4", 
+        "user_ssize_t", 
+        "write", 
+        "3", 
+        "int fd", 
+        "user_addr_t cbuf", 
+        "user_size_t nbyte", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/core/standard.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/macho.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/utils.py"
+    ], 
+    [
+        "5", 
+        "int", 
+        "open", 
+        "3", 
+        "user_addr_t path", 
+        "int flags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOService.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/open.c"
+    ], 
+    [
+        "6", 
+        "int", 
+        "close", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOService.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py"
+    ], 
+    [
+        "7", 
+        "int", 
+        "wait4", 
+        "4", 
+        "int pid", 
+        "user_addr_t status", 
+        "int options", 
+        "user_addr_t rusage", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c"
+    ], 
+    [
+        "8", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "9", 
+        "int", 
+        "link", 
+        "2", 
+        "user_addr_t path", 
+        "user_addr_t link", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOCPU.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOKitDebug.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOKitDebug.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOLib.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOPMrootDomain.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IOService.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/osfmk/i386/mp.c"
+    ], 
+    [
+        "10", 
+        "int", 
+        "unlink", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unlink.c"
+    ], 
+    [
+        "11", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "12", 
+        "int", 
+        "chdir", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "13", 
+        "int", 
+        "fchdir", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "14", 
+        "int", 
+        "mknod", 
+        "3", 
+        "user_addr_t path", 
+        "int mode", 
+        "int dev", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "15", 
+        "int", 
+        "chmod", 
+        "2", 
+        "user_addr_t path", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/chmod.c"
+    ], 
+    [
+        "16", 
+        "int", 
+        "chown", 
+        "3", 
+        "user_addr_t path", 
+        "int uid", 
+        "int gid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "17", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "18", 
+        "int", 
+        "getfsstat", 
+        "3", 
+        "user_addr_t buf", 
+        "int bufsize", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "19", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "20", 
+        "int", 
+        "getpid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "21", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "22", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "23", 
+        "int", 
+        "setuid", 
+        "1", 
+        "uid_t uid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "24", 
+        "int", 
+        "getuid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "25", 
+        "int", 
+        "geteuid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "26", 
+        "int", 
+        "ptrace", 
+        "4", 
+        "int req", 
+        "pid_t pid", 
+        "caddr_t addr", 
+        "int data", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/mach_process.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "27", 
+        "int", 
+        "recvmsg", 
+        "3", 
+        "int s", 
+        "struct msghdr *msg", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/recvmsg.c"
+    ], 
+    [
+        "28", 
+        "int", 
+        "sendmsg", 
+        "3", 
+        "int s", 
+        "caddr_t msg", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/sendmsg.c"
+    ], 
+    [
+        "29", 
+        "int", 
+        "recvfrom", 
+        "6", 
+        "int s", 
+        "void *buf", 
+        "size_t len", 
+        "int flags", 
+        "struct sockaddr *from", 
+        "int *fromlenaddr", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/recvfrom.c"
+    ], 
+    [
+        "30", 
+        "int", 
+        "accept", 
+        "3", 
+        "int s", 
+        "caddr_t name", 
+        "socklen_t *anamelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/accept.c"
+    ], 
+    [
+        "31", 
+        "int", 
+        "getpeername", 
+        "3", 
+        "int fdes", 
+        "caddr_t asa", 
+        "socklen_t *alen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/getpeername.c"
+    ], 
+    [
+        "32", 
+        "int", 
+        "getsockname", 
+        "3", 
+        "int fdes", 
+        "caddr_t asa", 
+        "socklen_t *alen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/getsockname.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "27", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "28", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "29", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "30", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "31", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "32", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "33", 
+        "int", 
+        "access", 
+        "2", 
+        "user_addr_t path", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "34", 
+        "int", 
+        "chflags", 
+        "2", 
+        "char *path", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "35", 
+        "int", 
+        "fchflags", 
+        "2", 
+        "int fd", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "36", 
+        "int", 
+        "sync", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Families/IONVRAM/IONVRAMController.cpp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/iokit/Kernel/IONVRAM.cpp"
+    ], 
+    [
+        "37", 
+        "int", 
+        "kill", 
+        "3", 
+        "int pid", 
+        "int signum", 
+        "int posix", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/kill.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/gdbserver.py"
+    ], 
+    [
+        "38", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "39", 
+        "int", 
+        "getppid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "40", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "41", 
+        "int", 
+        "dup", 
+        "1", 
+        "u_int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "42", 
+        "int", 
+        "pipe", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_pipe.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libkern/kxld/tests/loadtest.py"
+    ], 
+    [
+        "43", 
+        "int", 
+        "getegid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "44", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "45", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "46", 
+        "int", 
+        "sigaction", 
+        "3", 
+        "int signum", 
+        "struct __sigaction *nsa", 
+        "struct sigaction *osa", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "47", 
+        "int", 
+        "getgid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "48", 
+        "int", 
+        "sigprocmask", 
+        "3", 
+        "int how", 
+        "user_addr_t mask", 
+        "user_addr_t omask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "49", 
+        "int", 
+        "getlogin", 
+        "2", 
+        "char *namebuf", 
+        "u_int namelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "50", 
+        "int", 
+        "setlogin", 
+        "1", 
+        "char *namebuf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "51", 
+        "int", 
+        "acct", 
+        "1", 
+        "char *path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_acct.c"
+    ], 
+    [
+        "52", 
+        "int", 
+        "sigpending", 
+        "1", 
+        "struct sigvec *osv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "53", 
+        "int", 
+        "sigaltstack", 
+        "2", 
+        "struct sigaltstack *nss", 
+        "struct sigaltstack *oss", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "54", 
+        "int", 
+        "ioctl", 
+        "3", 
+        "int fd", 
+        "u_long com", 
+        "caddr_t data", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/dlil.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/dlil.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/ioctl.c"
+    ], 
+    [
+        "55", 
+        "int", 
+        "reboot", 
+        "2", 
+        "int opt", 
+        "char *command", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_xxx.c"
+    ], 
+    [
+        "56", 
+        "int", 
+        "revoke", 
+        "1", 
+        "char *path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "57", 
+        "int", 
+        "symlink", 
+        "2", 
+        "char *path", 
+        "char *link", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "58", 
+        "int", 
+        "readlink", 
+        "3", 
+        "char *path", 
+        "char *buf", 
+        "int count", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "59", 
+        "int", 
+        "execve", 
+        "3", 
+        "char *fname", 
+        "char **argp", 
+        "char **envp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exec.c"
+    ], 
+    [
+        "60", 
+        "int", 
+        "umask", 
+        "1", 
+        "int newmask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "61", 
+        "int", 
+        "chroot", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "62", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "63", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "64", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "65", 
+        "int", 
+        "msync", 
+        "3", 
+        "caddr_t addr", 
+        "size_t len", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/msync.c"
+    ], 
+    [
+        "66", 
+        "int", 
+        "vfork", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_fork.c"
+    ], 
+    [
+        "67", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "68", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "69", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "70", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "71", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "72", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "73", 
+        "int", 
+        "munmap", 
+        "2", 
+        "caddr_t addr", 
+        "size_t len", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/munmap.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/munmap.c"
+    ], 
+    [
+        "74", 
+        "int", 
+        "mprotect", 
+        "3", 
+        "caddr_t addr", 
+        "size_t len", 
+        "int prot", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/mprotect.c"
+    ], 
+    [
+        "75", 
+        "int", 
+        "madvise", 
+        "3", 
+        "caddr_t addr", 
+        "size_t len", 
+        "int behav", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "76", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "77", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "78", 
+        "int", 
+        "mincore", 
+        "3", 
+        "user_addr_t addr", 
+        "user_size_t len", 
+        "user_addr_t vec", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "79", 
+        "int", 
+        "getgroups", 
+        "2", 
+        "u_int gidsetsize", 
+        "gid_t *gidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "80", 
+        "int", 
+        "setgroups", 
+        "2", 
+        "u_int gidsetsize", 
+        "gid_t *gidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "81", 
+        "int", 
+        "getpgrp", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "82", 
+        "int", 
+        "setpgid", 
+        "2", 
+        "int pid", 
+        "int pgid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "83", 
+        "int", 
+        "setitimer", 
+        "3", 
+        "u_int which", 
+        "struct itimerval *itv", 
+        "struct itimerval *oitv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_time.c"
+    ], 
+    [
+        "84", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "85", 
+        "int", 
+        "swapon", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "86", 
+        "int", 
+        "getitimer", 
+        "2", 
+        "u_int which", 
+        "struct itimerval *itv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_time.c"
+    ], 
+    [
+        "87", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "88", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "89", 
+        "int", 
+        "getdtablesize", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "90", 
+        "int", 
+        "dup2", 
+        "2", 
+        "u_int from", 
+        "u_int to", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "91", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "92", 
+        "int", 
+        "fcntl", 
+        "3", 
+        "int fd", 
+        "int cmd", 
+        "long arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/cancelable/fcntl-base.c"
+    ], 
+    [
+        "93", 
+        "int", 
+        "select", 
+        "5", 
+        "int nd", 
+        "u_int32_t *in", 
+        "u_int32_t *ou", 
+        "u_int32_t *ex", 
+        "struct timeval *tv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/select-base.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/tests/perf_index/test_controller.py"
+    ], 
+    [
+        "94", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "95", 
+        "int", 
+        "fsync", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "96", 
+        "int", 
+        "setpriority", 
+        "3", 
+        "int which", 
+        "id_t who", 
+        "int prio", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/setpriority.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "97", 
+        "int", 
+        "socket", 
+        "3", 
+        "int domain", 
+        "int type", 
+        "int protocol", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/netinet6/ipsec.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/tests/perf_index/test_controller.py"
+    ], 
+    [
+        "98", 
+        "int", 
+        "connect", 
+        "3", 
+        "int s", 
+        "caddr_t name", 
+        "socklen_t namelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_control.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/connect.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/usertaskdebugging/interface.py"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "97", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "98", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "99", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "100", 
+        "int", 
+        "getpriority", 
+        "2", 
+        "int which", 
+        "id_t who", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c"
+    ], 
+    [
+        "101", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "102", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "103", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "104", 
+        "int", 
+        "bind", 
+        "3", 
+        "int s", 
+        "caddr_t name", 
+        "socklen_t namelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/bind.c"
+    ], 
+    [
+        "105", 
+        "int", 
+        "setsockopt", 
+        "5", 
+        "int s", 
+        "int level", 
+        "int name", 
+        "caddr_t val", 
+        "socklen_t valsize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "106", 
+        "int", 
+        "listen", 
+        "2", 
+        "int s", 
+        "int backlog", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/listen.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "104", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "105", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "106", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "107", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "108", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "109", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "110", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "111", 
+        "int", 
+        "sigsuspend", 
+        "1", 
+        "sigset_t mask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/sigsuspend-base.c"
+    ], 
+    [
+        "112", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "113", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "114", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "113", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "114", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "115", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "116", 
+        "int", 
+        "gettimeofday", 
+        "3", 
+        "struct timeval *tp", 
+        "struct timezone *tzp", 
+        "uint64_t *mach_absolute_time", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_time.c"
+    ], 
+    [
+        "117", 
+        "int", 
+        "getrusage", 
+        "2", 
+        "int who", 
+        "struct rusage *rusage", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "118", 
+        "int", 
+        "getsockopt", 
+        "5", 
+        "int s", 
+        "int level", 
+        "int name", 
+        "caddr_t val", 
+        "socklen_t *avalsize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "118", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "119", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "120", 
+        "user_ssize_t", 
+        "readv", 
+        "3", 
+        "int fd", 
+        "struct iovec *iovp", 
+        "u_int iovcnt", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "121", 
+        "user_ssize_t", 
+        "writev", 
+        "3", 
+        "int fd", 
+        "struct iovec *iovp", 
+        "u_int iovcnt", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "122", 
+        "int", 
+        "settimeofday", 
+        "2", 
+        "struct timeval *tv", 
+        "struct timezone *tzp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_time.c"
+    ], 
+    [
+        "123", 
+        "int", 
+        "fchown", 
+        "3", 
+        "int fd", 
+        "int uid", 
+        "int gid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "124", 
+        "int", 
+        "fchmod", 
+        "2", 
+        "int fd", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/fchmod.c"
+    ], 
+    [
+        "125", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "126", 
+        "int", 
+        "setreuid", 
+        "2", 
+        "uid_t ruid", 
+        "uid_t euid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "127", 
+        "int", 
+        "setregid", 
+        "2", 
+        "gid_t rgid", 
+        "gid_t egid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "128", 
+        "int", 
+        "rename", 
+        "2", 
+        "char *from", 
+        "char *to", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/rename.c"
+    ], 
+    [
+        "129", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "130", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "131", 
+        "int", 
+        "flock", 
+        "2", 
+        "int fd", 
+        "int how", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "132", 
+        "int", 
+        "mkfifo", 
+        "2", 
+        "user_addr_t path", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "133", 
+        "int", 
+        "sendto", 
+        "6", 
+        "int s", 
+        "caddr_t buf", 
+        "size_t len", 
+        "int flags", 
+        "caddr_t to", 
+        "socklen_t tolen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/sendto.c"
+    ], 
+    [
+        "134", 
+        "int", 
+        "shutdown", 
+        "2", 
+        "int s", 
+        "int how", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "135", 
+        "int", 
+        "socketpair", 
+        "4", 
+        "int domain", 
+        "int type", 
+        "int protocol", 
+        "int *rsv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/socketpair.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "133", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "134", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "135", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "136", 
+        "int", 
+        "mkdir", 
+        "2", 
+        "user_addr_t path", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "137", 
+        "int", 
+        "rmdir", 
+        "1", 
+        "char *path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/rmdir.c"
+    ], 
+    [
+        "138", 
+        "int", 
+        "utimes", 
+        "2", 
+        "char *path", 
+        "struct timeval *tptr", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "139", 
+        "int", 
+        "futimes", 
+        "2", 
+        "int fd", 
+        "struct timeval *tptr", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "140", 
+        "int", 
+        "adjtime", 
+        "2", 
+        "struct timeval *delta", 
+        "struct timeval *olddelta", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_time.c"
+    ], 
+    [
+        "141", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "142", 
+        "int", 
+        "gethostuuid", 
+        "3", 
+        "unsigned char *uuid_buf", 
+        "const struct timespec *timeoutp", 
+        "int spi", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/gethostuuid.c"
+    ], 
+    [
+        "143", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "144", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "145", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "146", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "147", 
+        "int", 
+        "setsid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "148", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "149", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "150", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "151", 
+        "int", 
+        "getpgid", 
+        "1", 
+        "pid_t pid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "152", 
+        "int", 
+        "setprivexec", 
+        "1", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "153", 
+        "user_ssize_t", 
+        "pread", 
+        "4", 
+        "int fd", 
+        "user_addr_t buf", 
+        "user_size_t nbyte", 
+        "off_t offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "154", 
+        "user_ssize_t", 
+        "pwrite", 
+        "4", 
+        "int fd", 
+        "user_addr_t buf", 
+        "user_size_t nbyte", 
+        "off_t offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "#if NFSSERVER"
+    ], 
+    [
+        "155", 
+        "int", 
+        "nfssvc", 
+        "2", 
+        "int flag", 
+        "caddr_t argp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/nfs/nfs_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "155", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "156", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "157", 
+        "int", 
+        "statfs", 
+        "2", 
+        "char *path", 
+        "struct statfs *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "158", 
+        "int", 
+        "fstatfs", 
+        "2", 
+        "int fd", 
+        "struct statfs *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "159", 
+        "int", 
+        "unmount", 
+        "2", 
+        "user_addr_t path", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "160", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#if NFSSERVER"
+    ], 
+    [
+        "161", 
+        "int", 
+        "getfh", 
+        "2", 
+        "char *fname", 
+        "fhandle_t *fhp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/nfs/nfs_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "161", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "162", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "163", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "164", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "165", 
+        "int", 
+        "quotactl", 
+        "4", 
+        "const char *path", 
+        "int cmd", 
+        "int uid", 
+        "caddr_t arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "166", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "167", 
+        "int", 
+        "mount", 
+        "4", 
+        "char *type", 
+        "char *path", 
+        "int flags", 
+        "caddr_t data", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "168", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "169", 
+        "int", 
+        "csops", 
+        "4", 
+        "pid_t pid", 
+        "uint32_t ops", 
+        "user_addr_t useraddr", 
+        "user_size_t usersize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_proc.c"
+    ], 
+    [
+        "170", 
+        "int", 
+        "csops_audittoken", 
+        "5", 
+        "pid_t pid", 
+        "uint32_t ops", 
+        "user_addr_t useraddr", 
+        "user_size_t usersize", 
+        "user_addr_t uaudittoken", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_proc.c"
+    ], 
+    [
+        "171", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "172", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "173", 
+        "int", 
+        "waitid", 
+        "4", 
+        "idtype_t idtype", 
+        "id_t id", 
+        "siginfo_t *infop", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c"
+    ], 
+    [
+        "174", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "175", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "176", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "177", 
+        "int", 
+        "kdebug_typefilter", 
+        "2", 
+        "void** addr", 
+        "size_t* size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kdebug.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/kdebug_trace.c"
+    ], 
+    [
+        "178", 
+        "uint64_t", 
+        "kdebug_trace_string", 
+        "3", 
+        "uint32_t debugid", 
+        "uint64_t str_id", 
+        "const char *str", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kdebug.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/kdebug_trace.c"
+    ], 
+    [
+        "179", 
+        "int", 
+        "kdebug_trace64", 
+        "5", 
+        "uint32_t code", 
+        "uint64_t arg1", 
+        "uint64_t arg2", 
+        "uint64_t arg3", 
+        "uint64_t arg4", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kdebug.c"
+    ], 
+    [
+        "180", 
+        "int", 
+        "kdebug_trace", 
+        "5", 
+        "uint32_t code", 
+        "u_long arg1", 
+        "u_long arg2", 
+        "u_long arg3", 
+        "u_long arg4", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kdebug.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/kdebug_trace.c"
+    ], 
+    [
+        "181", 
+        "int", 
+        "setgid", 
+        "1", 
+        "gid_t gid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "182", 
+        "int", 
+        "setegid", 
+        "1", 
+        "gid_t egid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "183", 
+        "int", 
+        "seteuid", 
+        "1", 
+        "uid_t euid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "184", 
+        "int", 
+        "sigreturn", 
+        "2", 
+        "struct ucontext *uctx", 
+        "int infostyle", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/dev/i386/unix_signal.c"
+    ], 
+    [
+        "185", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "186", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "187", 
+        "int", 
+        "fdatasync", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "188", 
+        "int", 
+        "stat", 
+        "2", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/netinet/tcp_timer.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/netinet/tcp_timer.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "189", 
+        "int", 
+        "fstat", 
+        "2", 
+        "int fd", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "190", 
+        "int", 
+        "lstat", 
+        "2", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "191", 
+        "int", 
+        "pathconf", 
+        "2", 
+        "char *path", 
+        "int name", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "192", 
+        "int", 
+        "fpathconf", 
+        "2", 
+        "int fd", 
+        "int name", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "193", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "194", 
+        "int", 
+        "getrlimit", 
+        "2", 
+        "u_int which", 
+        "struct rlimit *rlp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/getrlimit.c"
+    ], 
+    [
+        "195", 
+        "int", 
+        "setrlimit", 
+        "2", 
+        "u_int which", 
+        "struct rlimit *rlp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/setrlimit.c"
+    ], 
+    [
+        "196", 
+        "int", 
+        "getdirentries", 
+        "4", 
+        "int fd", 
+        "char *buf", 
+        "u_int count", 
+        "long *basep", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "197", 
+        "user_addr_t", 
+        "mmap", 
+        "6", 
+        "caddr_t addr", 
+        "size_t len", 
+        "int prot", 
+        "int flags", 
+        "int fd", 
+        "off_t pos", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unix03/mmap.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/tools/lldbmacros/kcdata.py"
+    ], 
+    [
+        "198", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "199", 
+        "off_t", 
+        "lseek", 
+        "3", 
+        "int fd", 
+        "off_t offset", 
+        "int whence", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "200", 
+        "int", 
+        "truncate", 
+        "2", 
+        "char *path", 
+        "off_t length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "201", 
+        "int", 
+        "ftruncate", 
+        "2", 
+        "int fd", 
+        "off_t length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "202", 
+        "int", 
+        "sysctl", 
+        "6", 
+        "int *name", 
+        "u_int namelen", 
+        "void *old", 
+        "size_t *oldlenp", 
+        "void *new", 
+        "size_t newlen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_newsysctl.c"
+    ], 
+    [
+        "203", 
+        "int", 
+        "mlock", 
+        "2", 
+        "caddr_t addr", 
+        "size_t len", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "204", 
+        "int", 
+        "munlock", 
+        "2", 
+        "caddr_t addr", 
+        "size_t len", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "205", 
+        "int", 
+        "undelete", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "206", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "207", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "208", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "209", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "210", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "211", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "212", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "213", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "214", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "215", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "216", 
+        "int", 
+        "open_dprotected_np", 
+        "5", 
+        "user_addr_t path", 
+        "int flags", 
+        "int class", 
+        "int dpflags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/open_dprotected_np.c"
+    ], 
+    [
+        "217", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "218", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "219", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "220", 
+        "int", 
+        "getattrlist", 
+        "5", 
+        "const char *path", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/getattrlist.c"
+    ], 
+    [
+        "221", 
+        "int", 
+        "setattrlist", 
+        "5", 
+        "const char *path", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/setattrlist.c"
+    ], 
+    [
+        "222", 
+        "int", 
+        "getdirentriesattr", 
+        "8", 
+        "int fd", 
+        "struct attrlist *alist", 
+        "void *buffer", 
+        "size_t buffersize", 
+        "u_long *count", 
+        "u_long *basep", 
+        "u_long *newstate", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "223", 
+        "int", 
+        "exchangedata", 
+        "3", 
+        "const char *path1", 
+        "const char *path2", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "224", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "225", 
+        "int", 
+        "searchfs", 
+        "6", 
+        "const char *path", 
+        "struct fssearchblock *searchblock", 
+        "uint32_t *nummatches", 
+        "uint32_t scriptcode", 
+        "uint32_t options", 
+        "struct searchstate *state", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "226", 
+        "int", 
+        "delete", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "227", 
+        "int", 
+        "copyfile", 
+        "4", 
+        "char *from", 
+        "char *to", 
+        "int mode", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "228", 
+        "int", 
+        "fgetattrlist", 
+        "5", 
+        "int fd", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c"
+    ], 
+    [
+        "229", 
+        "int", 
+        "fsetattrlist", 
+        "5", 
+        "int fd", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c"
+    ], 
+    [
+        "230", 
+        "int", 
+        "poll", 
+        "3", 
+        "struct pollfd *fds", 
+        "u_int nfds", 
+        "int timeout", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "231", 
+        "int", 
+        "watchevent", 
+        "2", 
+        "struct eventreq *u_req", 
+        "int u_eventmask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "232", 
+        "int", 
+        "waitevent", 
+        "2", 
+        "struct eventreq *u_req", 
+        "struct timeval *tv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "233", 
+        "int", 
+        "modwatch", 
+        "2", 
+        "struct eventreq *u_req", 
+        "int u_eventmask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "234", 
+        "user_ssize_t", 
+        "getxattr", 
+        "6", 
+        "user_addr_t path", 
+        "user_addr_t attrname", 
+        "user_addr_t value", 
+        "size_t size", 
+        "uint32_t position", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "235", 
+        "user_ssize_t", 
+        "fgetxattr", 
+        "6", 
+        "int fd", 
+        "user_addr_t attrname", 
+        "user_addr_t value", 
+        "size_t size", 
+        "uint32_t position", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "236", 
+        "int", 
+        "setxattr", 
+        "6", 
+        "user_addr_t path", 
+        "user_addr_t attrname", 
+        "user_addr_t value", 
+        "size_t size", 
+        "uint32_t position", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "237", 
+        "int", 
+        "fsetxattr", 
+        "6", 
+        "int fd", 
+        "user_addr_t attrname", 
+        "user_addr_t value", 
+        "size_t size", 
+        "uint32_t position", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "238", 
+        "int", 
+        "removexattr", 
+        "3", 
+        "user_addr_t path", 
+        "user_addr_t attrname", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "239", 
+        "int", 
+        "fremovexattr", 
+        "3", 
+        "int fd", 
+        "user_addr_t attrname", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "240", 
+        "user_ssize_t", 
+        "listxattr", 
+        "4", 
+        "user_addr_t path", 
+        "user_addr_t namebuf", 
+        "size_t bufsize", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "241", 
+        "user_ssize_t", 
+        "flistxattr", 
+        "4", 
+        "int fd", 
+        "user_addr_t namebuf", 
+        "size_t bufsize", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "242", 
+        "int", 
+        "fsctl", 
+        "4", 
+        "const char *path", 
+        "u_long cmd", 
+        "caddr_t data", 
+        "u_int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "243", 
+        "int", 
+        "initgroups", 
+        "3", 
+        "u_int gidsetsize", 
+        "gid_t *gidset", 
+        "int gmuid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "244", 
+        "int", 
+        "posix_spawn", 
+        "5", 
+        "pid_t *pid", 
+        "const char *path", 
+        "const struct _posix_spawn_args_desc *adesc", 
+        "char **argv", 
+        "char **envp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exec.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/spawn/posix_spawn.c"
+    ], 
+    [
+        "245", 
+        "int", 
+        "ffsctl", 
+        "4", 
+        "int fd", 
+        "u_long cmd", 
+        "caddr_t data", 
+        "u_int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "246", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#if NFSCLIENT"
+    ], 
+    [
+        "247", 
+        "int", 
+        "nfsclnt", 
+        "2", 
+        "int flag", 
+        "caddr_t argp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/nfs/nfs_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "247", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if NFSSERVER"
+    ], 
+    [
+        "248", 
+        "int", 
+        "fhopen", 
+        "2", 
+        "const struct fhandle *u_fhp", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/nfs/nfs_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "248", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "249", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "250", 
+        "int", 
+        "minherit", 
+        "3", 
+        "void *addr", 
+        "size_t len", 
+        "int inherit", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "#if SYSV_SEM"
+    ], 
+    [
+        "251", 
+        "int", 
+        "semsys", 
+        "5", 
+        "u_int which", 
+        "int a2", 
+        "int a3", 
+        "int a4", 
+        "int a5", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_sem.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "251", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if SYSV_MSG"
+    ], 
+    [
+        "252", 
+        "int", 
+        "msgsys", 
+        "5", 
+        "u_int which", 
+        "int a2", 
+        "int a3", 
+        "int a4", 
+        "int a5", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "252", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if SYSV_SHM"
+    ], 
+    [
+        "253", 
+        "int", 
+        "shmsys", 
+        "4", 
+        "u_int which", 
+        "int a2", 
+        "int a3", 
+        "int a4", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_shm.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "253", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if SYSV_SEM"
+    ], 
+    [
+        "254", 
+        "int", 
+        "semctl", 
+        "4", 
+        "int semid", 
+        "int semnum", 
+        "int cmd", 
+        "semun_t arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_sem.c"
+    ], 
+    [
+        "255", 
+        "int", 
+        "semget", 
+        "3", 
+        "key_t key", 
+        "int nsems", 
+        "int semflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_sem.c"
+    ], 
+    [
+        "256", 
+        "int", 
+        "semop", 
+        "3", 
+        "int semid", 
+        "struct sembuf *sops", 
+        "int nsops", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_sem.c"
+    ], 
+    [
+        "257", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "254", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "255", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "256", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "257", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if SYSV_MSG"
+    ], 
+    [
+        "258", 
+        "int", 
+        "msgctl", 
+        "3", 
+        "int msqid", 
+        "int cmd", 
+        "struct msqid_ds *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "259", 
+        "int", 
+        "msgget", 
+        "2", 
+        "key_t key", 
+        "int msgflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "260", 
+        "int", 
+        "msgsnd", 
+        "4", 
+        "int msqid", 
+        "void *msgp", 
+        "size_t msgsz", 
+        "int msgflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "261", 
+        "user_ssize_t", 
+        "msgrcv", 
+        "5", 
+        "int msqid", 
+        "void *msgp", 
+        "size_t msgsz", 
+        "long msgtyp", 
+        "int msgflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "258", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "259", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "260", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "261", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if SYSV_SHM"
+    ], 
+    [
+        "262", 
+        "user_addr_t", 
+        "shmat", 
+        "3", 
+        "int shmid", 
+        "void *shmaddr", 
+        "int shmflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_shm.c"
+    ], 
+    [
+        "263", 
+        "int", 
+        "shmctl", 
+        "3", 
+        "int shmid", 
+        "int cmd", 
+        "struct shmid_ds *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_shm.c"
+    ], 
+    [
+        "264", 
+        "int", 
+        "shmdt", 
+        "1", 
+        "void *shmaddr", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_shm.c"
+    ], 
+    [
+        "265", 
+        "int", 
+        "shmget", 
+        "3", 
+        "key_t key", 
+        "size_t size", 
+        "int shmflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_shm.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "262", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "263", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "264", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "265", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "266", 
+        "int", 
+        "shm_open", 
+        "3", 
+        "const char *name", 
+        "int oflag", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_shm.c"
+    ], 
+    [
+        "267", 
+        "int", 
+        "shm_unlink", 
+        "1", 
+        "const char *name", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_shm.c"
+    ], 
+    [
+        "268", 
+        "user_addr_t", 
+        "sem_open", 
+        "4", 
+        "const char *name", 
+        "int oflag", 
+        "int mode", 
+        "int value", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "269", 
+        "int", 
+        "sem_close", 
+        "1", 
+        "sem_t *sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "270", 
+        "int", 
+        "sem_unlink", 
+        "1", 
+        "const char *name", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "271", 
+        "int", 
+        "sem_wait", 
+        "1", 
+        "sem_t *sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "272", 
+        "int", 
+        "sem_trywait", 
+        "1", 
+        "sem_t *sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "273", 
+        "int", 
+        "sem_post", 
+        "1", 
+        "sem_t *sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "274", 
+        "int", 
+        "sysctlbyname", 
+        "6", 
+        "const char *name", 
+        "size_t namelen", 
+        "void *old", 
+        "size_t *oldlenp", 
+        "void *new", 
+        "size_t newlen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_newsysctl.c"
+    ], 
+    [
+        "275", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "276", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "277", 
+        "int", 
+        "open_extended", 
+        "6", 
+        "user_addr_t path", 
+        "int flags", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "int mode", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "278", 
+        "int", 
+        "umask_extended", 
+        "2", 
+        "int newmask", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "279", 
+        "int", 
+        "stat_extended", 
+        "4", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "280", 
+        "int", 
+        "lstat_extended", 
+        "4", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "281", 
+        "int", 
+        "fstat_extended", 
+        "4", 
+        "int fd", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "282", 
+        "int", 
+        "chmod_extended", 
+        "5", 
+        "user_addr_t path", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "int mode", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "283", 
+        "int", 
+        "fchmod_extended", 
+        "5", 
+        "int fd", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "int mode", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "284", 
+        "int", 
+        "access_extended", 
+        "4", 
+        "user_addr_t entries", 
+        "size_t size", 
+        "user_addr_t results", 
+        "uid_t uid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "285", 
+        "int", 
+        "settid", 
+        "2", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "286", 
+        "int", 
+        "gettid", 
+        "2", 
+        "uid_t *uidp", 
+        "gid_t *gidp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "287", 
+        "int", 
+        "setsgroups", 
+        "2", 
+        "int setlen", 
+        "user_addr_t guidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "288", 
+        "int", 
+        "getsgroups", 
+        "2", 
+        "user_addr_t setlen", 
+        "user_addr_t guidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "289", 
+        "int", 
+        "setwgroups", 
+        "2", 
+        "int setlen", 
+        "user_addr_t guidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "290", 
+        "int", 
+        "getwgroups", 
+        "2", 
+        "user_addr_t setlen", 
+        "user_addr_t guidset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "291", 
+        "int", 
+        "mkfifo_extended", 
+        "5", 
+        "user_addr_t path", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "int mode", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "292", 
+        "int", 
+        "mkdir_extended", 
+        "5", 
+        "user_addr_t path", 
+        "uid_t uid", 
+        "gid_t gid", 
+        "int mode", 
+        "user_addr_t xsecurity", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "#if CONFIG_EXT_RESOLVER"
+    ], 
+    [
+        "293", 
+        "int", 
+        "identitysvc", 
+        "2", 
+        "int opcode", 
+        "user_addr_t message", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_credential.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "293", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "294", 
+        "int", 
+        "shared_region_check_np", 
+        "1", 
+        "uint64_t *start_address", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "295", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "296", 
+        "int", 
+        "vm_pressure_monitor", 
+        "3", 
+        "int wait_for_pressure", 
+        "int nsecs_monitored", 
+        "uint32_t *pages_reclaimed", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "#if PSYNCH"
+    ], 
+    [
+        "297", 
+        "uint32_t", 
+        "psynch_rw_longrdlock", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "298", 
+        "uint32_t", 
+        "psynch_rw_yieldwrlock", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "299", 
+        "int", 
+        "psynch_rw_downgrade", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "300", 
+        "uint32_t", 
+        "psynch_rw_upgrade", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "301", 
+        "uint32_t", 
+        "psynch_mutexwait", 
+        "5", 
+        "user_addr_t mutex", 
+        "uint32_t mgen", 
+        "uint32_t ugen", 
+        "uint64_t tid", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "302", 
+        "uint32_t", 
+        "psynch_mutexdrop", 
+        "5", 
+        "user_addr_t mutex", 
+        "uint32_t mgen", 
+        "uint32_t ugen", 
+        "uint64_t tid", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "303", 
+        "uint32_t", 
+        "psynch_cvbroad", 
+        "7", 
+        "user_addr_t cv", 
+        "uint64_t cvlsgen", 
+        "uint64_t cvudgen", 
+        "uint32_t flags", 
+        "user_addr_t mutex", 
+        "uint64_t mugen", 
+        "uint64_t tid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "304", 
+        "uint32_t", 
+        "psynch_cvsignal", 
+        "8", 
+        "user_addr_t cv", 
+        "uint64_t cvlsgen", 
+        "uint32_t cvugen", 
+        "int thread_port", 
+        "user_addr_t mutex", 
+        "uint64_t mugen", 
+        "uint64_t tid", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "305", 
+        "uint32_t", 
+        "psynch_cvwait", 
+        "8", 
+        "user_addr_t cv", 
+        "uint64_t cvlsgen", 
+        "uint32_t cvugen", 
+        "user_addr_t mutex", 
+        "uint64_t mugen", 
+        "uint32_t flags", 
+        "int64_t sec", 
+        "uint32_t nsec", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "306", 
+        "uint32_t", 
+        "psynch_rw_rdlock", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "307", 
+        "uint32_t", 
+        "psynch_rw_wrlock", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "308", 
+        "uint32_t", 
+        "psynch_rw_unlock", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "309", 
+        "uint32_t", 
+        "psynch_rw_unlock2", 
+        "5", 
+        "user_addr_t rwlock", 
+        "uint32_t lgenval", 
+        "uint32_t ugenval", 
+        "uint32_t rw_wc", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "297", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "298", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "299", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "300", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "301", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "302", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "303", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "304", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "305", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "306", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "307", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "308", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "309", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "310", 
+        "int", 
+        "getsid", 
+        "1", 
+        "pid_t pid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "311", 
+        "int", 
+        "settid_with_pid", 
+        "2", 
+        "pid_t pid", 
+        "int assume", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "#if PSYNCH"
+    ], 
+    [
+        "312", 
+        "int", 
+        "psynch_cvclrprepost", 
+        "7", 
+        "user_addr_t cv", 
+        "uint32_t cvgen", 
+        "uint32_t cvugen", 
+        "uint32_t cvsgen", 
+        "uint32_t prepocnt", 
+        "uint32_t preposeq", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "312", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "313", 
+        "int", 
+        "aio_fsync", 
+        "2", 
+        "int op", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "314", 
+        "user_ssize_t", 
+        "aio_return", 
+        "1", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "315", 
+        "int", 
+        "aio_suspend", 
+        "3", 
+        "user_addr_t aiocblist", 
+        "int nent", 
+        "user_addr_t timeoutp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "316", 
+        "int", 
+        "aio_cancel", 
+        "2", 
+        "int fd", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "317", 
+        "int", 
+        "aio_error", 
+        "1", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "318", 
+        "int", 
+        "aio_read", 
+        "1", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "319", 
+        "int", 
+        "aio_write", 
+        "1", 
+        "user_addr_t aiocbp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "320", 
+        "int", 
+        "lio_listio", 
+        "4", 
+        "int mode", 
+        "user_addr_t aiocblist", 
+        "int nent", 
+        "user_addr_t sigp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "321", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "322", 
+        "int", 
+        "iopolicysys", 
+        "2", 
+        "int cmd", 
+        "void *arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c"
+    ], 
+    [
+        "323", 
+        "int", 
+        "process_policy", 
+        "7", 
+        "int scope", 
+        "int action", 
+        "int policy", 
+        "int policy_subtype", 
+        "user_addr_t attrp", 
+        "pid_t target_pid", 
+        "uint64_t target_threadid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/process_policy.c"
+    ], 
+    [
+        "324", 
+        "int", 
+        "mlockall", 
+        "1", 
+        "int how", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "325", 
+        "int", 
+        "munlockall", 
+        "1", 
+        "int how", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "326", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "327", 
+        "int", 
+        "issetugid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_prot.c"
+    ], 
+    [
+        "328", 
+        "int", 
+        "__pthread_kill", 
+        "2", 
+        "int thread_port", 
+        "int sig", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "329", 
+        "int", 
+        "__pthread_sigmask", 
+        "3", 
+        "int how", 
+        "user_addr_t set", 
+        "user_addr_t oset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "330", 
+        "int", 
+        "__sigwait", 
+        "2", 
+        "user_addr_t set", 
+        "user_addr_t sig", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "331", 
+        "int", 
+        "__disable_threadsignal", 
+        "1", 
+        "int value", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "332", 
+        "int", 
+        "__pthread_markcancel", 
+        "1", 
+        "int thread_port", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "333", 
+        "int", 
+        "__pthread_canceled", 
+        "1", 
+        "int action", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "334", 
+        "int", 
+        "__semwait_signal", 
+        "6", 
+        "int cond_sem", 
+        "int mutex_sem", 
+        "int timeout", 
+        "int relative", 
+        "int64_t tv_sec", 
+        "int32_t tv_nsec", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "335", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "336", 
+        "int", 
+        "proc_info", 
+        "6", 
+        "int32_t callnum", 
+        "pid", 
+        "flavor", 
+        "uint64_t arg", 
+        "buffer", 
+        "buffersize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/proc_info.c"
+    ], 
+    [
+        "#if SENDFILE"
+    ], 
+    [
+        "337", 
+        "int", 
+        "sendfile", 
+        "6", 
+        "int fd", 
+        "int s", 
+        "off_t offset", 
+        "off_t *nbytes", 
+        "struct sf_hdtr *hdtr", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else /* !SENDFILE */"
+    ], 
+    [
+        "337", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "338", 
+        "int", 
+        "stat64", 
+        "2", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "339", 
+        "int", 
+        "fstat64", 
+        "2", 
+        "int fd", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "340", 
+        "int", 
+        "lstat64", 
+        "2", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "341", 
+        "int", 
+        "stat64_extended", 
+        "4", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "342", 
+        "int", 
+        "lstat64_extended", 
+        "4", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "343", 
+        "int", 
+        "fstat64_extended", 
+        "4", 
+        "int fd", 
+        "user_addr_t ub", 
+        "user_addr_t xsecurity", 
+        "user_addr_t xsecurity_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "344", 
+        "user_ssize_t", 
+        "getdirentries64", 
+        "4", 
+        "int fd", 
+        "void *buf", 
+        "user_size_t bufsize", 
+        "off_t *position", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "345", 
+        "int", 
+        "statfs64", 
+        "2", 
+        "char *path", 
+        "struct statfs64 *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "346", 
+        "int", 
+        "fstatfs64", 
+        "2", 
+        "int fd", 
+        "struct statfs64 *buf", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "347", 
+        "int", 
+        "getfsstat64", 
+        "3", 
+        "user_addr_t buf", 
+        "int bufsize", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "348", 
+        "int", 
+        "__pthread_chdir", 
+        "1", 
+        "user_addr_t path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "349", 
+        "int", 
+        "__pthread_fchdir", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "350", 
+        "int", 
+        "audit", 
+        "2", 
+        "void *record", 
+        "int length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "351", 
+        "int", 
+        "auditon", 
+        "3", 
+        "int cmd", 
+        "void *data", 
+        "int length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "352", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "353", 
+        "int", 
+        "getauid", 
+        "1", 
+        "au_id_t *auid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "354", 
+        "int", 
+        "setauid", 
+        "1", 
+        "au_id_t *auid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "355", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "356", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "357", 
+        "int", 
+        "getaudit_addr", 
+        "2", 
+        "struct auditinfo_addr *auditinfo_addr", 
+        "int length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "358", 
+        "int", 
+        "setaudit_addr", 
+        "2", 
+        "struct auditinfo_addr *auditinfo_addr", 
+        "int length", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "359", 
+        "int", 
+        "auditctl", 
+        "1", 
+        "char *path", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_syscalls.c"
+    ], 
+    [
+        "#if CONFIG_WORKQUEUE"
+    ], 
+    [
+        "360", 
+        "user_addr_t", 
+        "bsdthread_create", 
+        "5", 
+        "user_addr_t func", 
+        "user_addr_t func_arg", 
+        "user_addr_t stack", 
+        "user_addr_t pthread", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "361", 
+        "int", 
+        "bsdthread_terminate", 
+        "4", 
+        "user_addr_t stackaddr", 
+        "size_t freesize", 
+        "uint32_t port", 
+        "uint32_t sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "360", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "361", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "362", 
+        "int", 
+        "kqueue", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_event.c"
+    ], 
+    [
+        "363", 
+        "int", 
+        "kevent", 
+        "6", 
+        "int fd", 
+        "const struct kevent *changelist", 
+        "int nchanges", 
+        "struct kevent *eventlist", 
+        "int nevents", 
+        "const struct timespec *timeout", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_event.c"
+    ], 
+    [
+        "364", 
+        "int", 
+        "lchown", 
+        "3", 
+        "user_addr_t path", 
+        "uid_t owner", 
+        "gid_t group", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/legacy/lchown.c"
+    ], 
+    [
+        "365", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#if CONFIG_WORKQUEUE"
+    ], 
+    [
+        "366", 
+        "int", 
+        "bsdthread_register", 
+        "7", 
+        "user_addr_t threadstart", 
+        "user_addr_t wqthread", 
+        "uint32_t flags", 
+        "user_addr_t stack_addr_hint", 
+        "user_addr_t targetconc_ptr", 
+        "uint32_t dispatchqueue_offset", 
+        "uint32_t tsd_offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "367", 
+        "int", 
+        "workq_open", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "368", 
+        "int", 
+        "workq_kernreturn", 
+        "4", 
+        "int options", 
+        "user_addr_t item", 
+        "int affinity", 
+        "int prio", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "366", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "367", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "368", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "369", 
+        "int", 
+        "kevent64", 
+        "7", 
+        "int fd", 
+        "const struct kevent64_s *changelist", 
+        "int nchanges", 
+        "struct kevent64_s *eventlist", 
+        "int nevents", 
+        "unsigned int flags", 
+        "const struct timespec *timeout", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_event.c"
+    ], 
+    [
+        "#if OLD_SEMWAIT_SIGNAL"
+    ], 
+    [
+        "370", 
+        "int", 
+        "__old_semwait_signal", 
+        "5", 
+        "int cond_sem", 
+        "int mutex_sem", 
+        "int timeout", 
+        "int relative", 
+        "const struct timespec *ts", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "371", 
+        "int", 
+        "__old_semwait_signal_nocancel", 
+        "5", 
+        "int cond_sem", 
+        "int mutex_sem", 
+        "int timeout", 
+        "int relative", 
+        "const struct timespec *ts", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "370", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "371", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "372", 
+        "uint64_t", 
+        "thread_selfid", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "373", 
+        "int", 
+        "ledger", 
+        "4", 
+        "int cmd", 
+        "caddr_t arg1", 
+        "caddr_t arg2", 
+        "caddr_t arg3", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/osfmk/kern/coalition.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/osfmk/kern/ledger.c"
+    ], 
+    [
+        "374", 
+        "int", 
+        "kevent_qos", 
+        "8", 
+        "int fd", 
+        "const struct kevent_qos_s *changelist", 
+        "int nchanges", 
+        "struct kevent_qos_s *eventlist", 
+        "int nevents", 
+        "void *data_out", 
+        "size_t *data_available", 
+        "unsigned int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_event.c"
+    ], 
+    [
+        "375", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "376", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "377", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "378", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "379", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "380", 
+        "int", 
+        "__mac_execve", 
+        "4", 
+        "char *fname", 
+        "char **argp", 
+        "char **envp", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exec.c"
+    ], 
+    [
+        "#if CONFIG_MACF"
+    ], 
+    [
+        "381", 
+        "int", 
+        "__mac_syscall", 
+        "3", 
+        "char *policy", 
+        "int call", 
+        "user_addr_t arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "382", 
+        "int", 
+        "__mac_get_file", 
+        "2", 
+        "char *path_p", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "383", 
+        "int", 
+        "__mac_set_file", 
+        "2", 
+        "char *path_p", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "384", 
+        "int", 
+        "__mac_get_link", 
+        "2", 
+        "char *path_p", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "385", 
+        "int", 
+        "__mac_set_link", 
+        "2", 
+        "char *path_p", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "386", 
+        "int", 
+        "__mac_get_proc", 
+        "1", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "387", 
+        "int", 
+        "__mac_set_proc", 
+        "1", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "388", 
+        "int", 
+        "__mac_get_fd", 
+        "2", 
+        "int fd", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "389", 
+        "int", 
+        "__mac_set_fd", 
+        "2", 
+        "int fd", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "390", 
+        "int", 
+        "__mac_get_pid", 
+        "2", 
+        "pid_t pid", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "381", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "382", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "383", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "384", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "385", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "386", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "387", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "388", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "389", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "390", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "391", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "392", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "393", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "394", 
+        "int", 
+        "pselect", 
+        "6", 
+        "int nd", 
+        "u_int32_t *in", 
+        "u_int32_t *ou", 
+        "u_int32_t *ex", 
+        "const struct timespec *ts", 
+        "const struct sigset_t *mask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/select-base.c"
+    ], 
+    [
+        "395", 
+        "int", 
+        "pselect_nocancel", 
+        "6", 
+        "int nd", 
+        "u_int32_t *in", 
+        "u_int32_t *ou", 
+        "u_int32_t *ex", 
+        "const struct timespec *ts", 
+        "const struct sigset_t *mask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "396", 
+        "user_ssize_t", 
+        "read_nocancel", 
+        "3", 
+        "int fd", 
+        "user_addr_t cbuf", 
+        "user_size_t nbyte", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "397", 
+        "user_ssize_t", 
+        "write_nocancel", 
+        "3", 
+        "int fd", 
+        "user_addr_t cbuf", 
+        "user_size_t nbyte", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "398", 
+        "int", 
+        "open_nocancel", 
+        "3", 
+        "user_addr_t path", 
+        "int flags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "399", 
+        "int", 
+        "close_nocancel", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "400", 
+        "int", 
+        "wait4_nocancel", 
+        "4", 
+        "int pid", 
+        "user_addr_t status", 
+        "int options", 
+        "user_addr_t rusage", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "401", 
+        "int", 
+        "recvmsg_nocancel", 
+        "3", 
+        "int s", 
+        "struct msghdr *msg", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "402", 
+        "int", 
+        "sendmsg_nocancel", 
+        "3", 
+        "int s", 
+        "caddr_t msg", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "403", 
+        "int", 
+        "recvfrom_nocancel", 
+        "6", 
+        "int s", 
+        "void *buf", 
+        "size_t len", 
+        "int flags", 
+        "struct sockaddr *from", 
+        "int *fromlenaddr", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "404", 
+        "int", 
+        "accept_nocancel", 
+        "3", 
+        "int s", 
+        "caddr_t name", 
+        "socklen_t *anamelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "401", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "402", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "403", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "404", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "405", 
+        "int", 
+        "msync_nocancel", 
+        "3", 
+        "caddr_t addr", 
+        "size_t len", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "406", 
+        "int", 
+        "fcntl_nocancel", 
+        "3", 
+        "int fd", 
+        "int cmd", 
+        "long arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "407", 
+        "int", 
+        "select_nocancel", 
+        "5", 
+        "int nd", 
+        "u_int32_t *in", 
+        "u_int32_t *ou", 
+        "u_int32_t *ex", 
+        "struct timeval *tv", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "408", 
+        "int", 
+        "fsync_nocancel", 
+        "1", 
+        "int fd", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "409", 
+        "int", 
+        "connect_nocancel", 
+        "3", 
+        "int s", 
+        "caddr_t name", 
+        "socklen_t namelen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "409", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "410", 
+        "int", 
+        "sigsuspend_nocancel", 
+        "1", 
+        "sigset_t mask", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "411", 
+        "user_ssize_t", 
+        "readv_nocancel", 
+        "3", 
+        "int fd", 
+        "struct iovec *iovp", 
+        "u_int iovcnt", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "412", 
+        "user_ssize_t", 
+        "writev_nocancel", 
+        "3", 
+        "int fd", 
+        "struct iovec *iovp", 
+        "u_int iovcnt", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "413", 
+        "int", 
+        "sendto_nocancel", 
+        "6", 
+        "int s", 
+        "caddr_t buf", 
+        "size_t len", 
+        "int flags", 
+        "caddr_t to", 
+        "socklen_t tolen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "413", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "414", 
+        "user_ssize_t", 
+        "pread_nocancel", 
+        "4", 
+        "int fd", 
+        "user_addr_t buf", 
+        "user_size_t nbyte", 
+        "off_t offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "415", 
+        "user_ssize_t", 
+        "pwrite_nocancel", 
+        "4", 
+        "int fd", 
+        "user_addr_t buf", 
+        "user_size_t nbyte", 
+        "off_t offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "416", 
+        "int", 
+        "waitid_nocancel", 
+        "4", 
+        "idtype_t idtype", 
+        "id_t id", 
+        "siginfo_t *infop", 
+        "int options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c"
+    ], 
+    [
+        "417", 
+        "int", 
+        "poll_nocancel", 
+        "3", 
+        "struct pollfd *fds", 
+        "u_int nfds", 
+        "int timeout", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "#if SYSV_MSG"
+    ], 
+    [
+        "418", 
+        "int", 
+        "msgsnd_nocancel", 
+        "4", 
+        "int msqid", 
+        "void *msgp", 
+        "size_t msgsz", 
+        "int msgflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "419", 
+        "user_ssize_t", 
+        "msgrcv_nocancel", 
+        "5", 
+        "int msqid", 
+        "void *msgp", 
+        "size_t msgsz", 
+        "long msgtyp", 
+        "int msgflg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sysv_msg.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "418", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "419", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "420", 
+        "int", 
+        "sem_wait_nocancel", 
+        "1", 
+        "sem_t *sem", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/posix_sem.c"
+    ], 
+    [
+        "421", 
+        "int", 
+        "aio_suspend_nocancel", 
+        "3", 
+        "user_addr_t aiocblist", 
+        "int nent", 
+        "user_addr_t timeoutp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_aio.c"
+    ], 
+    [
+        "422", 
+        "int", 
+        "__sigwait_nocancel", 
+        "2", 
+        "user_addr_t set", 
+        "user_addr_t sig", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "423", 
+        "int", 
+        "__semwait_signal_nocancel", 
+        "6", 
+        "int cond_sem", 
+        "int mutex_sem", 
+        "int timeout", 
+        "int relative", 
+        "int64_t tv_sec", 
+        "int32_t tv_nsec", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c"
+    ], 
+    [
+        "424", 
+        "int", 
+        "__mac_mount", 
+        "5", 
+        "char *type", 
+        "char *path", 
+        "int flags", 
+        "caddr_t data", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "#if CONFIG_MACF"
+    ], 
+    [
+        "425", 
+        "int", 
+        "__mac_get_mount", 
+        "2", 
+        "char *path", 
+        "struct mac *mac_p", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/security/mac_base.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "425", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "426", 
+        "int", 
+        "__mac_getfsstat", 
+        "5", 
+        "user_addr_t buf", 
+        "int bufsize", 
+        "user_addr_t mac", 
+        "int macsize", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "427", 
+        "user_ssize_t", 
+        "fsgetpath", 
+        "4", 
+        "user_addr_t buf", 
+        "size_t bufsize", 
+        "user_addr_t fsid", 
+        "uint64_t objid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "428", 
+        "mach_port_name_t", 
+        "audit_session_self", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_session.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_session.c"
+    ], 
+    [
+        "429", 
+        "int", 
+        "audit_session_join", 
+        "1", 
+        "mach_port_name_t port", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_session.c"
+    ], 
+    [
+        "430", 
+        "int", 
+        "fileport_makeport", 
+        "2", 
+        "int fd", 
+        "user_addr_t portnamep", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "431", 
+        "int", 
+        "fileport_makefd", 
+        "1", 
+        "mach_port_name_t port", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_descrip.c"
+    ], 
+    [
+        "432", 
+        "int", 
+        "audit_session_port", 
+        "2", 
+        "au_asid_t asid", 
+        "user_addr_t portnamep", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_session.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/security/audit/audit_session.c"
+    ], 
+    [
+        "433", 
+        "int", 
+        "pid_suspend", 
+        "1", 
+        "int pid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "434", 
+        "int", 
+        "pid_resume", 
+        "1", 
+        "int pid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "435", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "436", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "437", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "438", 
+        "int", 
+        "shared_region_map_and_slide_np", 
+        "6", 
+        "int fd", 
+        "uint32_t count", 
+        "const struct shared_file_mapping_np *mappings", 
+        "uint32_t slide", 
+        "uint64_t* slide_start", 
+        "uint32_t slide_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "439", 
+        "int", 
+        "kas_info", 
+        "3", 
+        "int selector", 
+        "void *value", 
+        "size_t *size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vm/vm_unix.c"
+    ], 
+    [
+        "#if CONFIG_MEMORYSTATUS"
+    ], 
+    [
+        "440", 
+        "int", 
+        "memorystatus_control", 
+        "5", 
+        "uint32_t command", 
+        "int32_t pid", 
+        "uint32_t flags", 
+        "user_addr_t buffer", 
+        "size_t buffersize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_memorystatus.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "440", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "441", 
+        "int", 
+        "guarded_open_np", 
+        "5", 
+        "const char *path", 
+        "const guardid_t *guard", 
+        "u_int guardflags", 
+        "int flags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/guarded_open_np.c"
+    ], 
+    [
+        "442", 
+        "int", 
+        "guarded_close_np", 
+        "2", 
+        "int fd", 
+        "const guardid_t *guard", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "443", 
+        "int", 
+        "guarded_kqueue_np", 
+        "2", 
+        "const guardid_t *guard", 
+        "u_int guardflags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "444", 
+        "int", 
+        "change_fdguard_np", 
+        "6", 
+        "int fd", 
+        "const guardid_t *guard", 
+        "u_int guardflags", 
+        "const guardid_t *nguard", 
+        "u_int nguardflags", 
+        "int *fdflagsp", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "445", 
+        "int", 
+        "usrctl", 
+        "1", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_xxx.c"
+    ], 
+    [
+        "446", 
+        "int", 
+        "proc_rlimit_control", 
+        "3", 
+        "pid_t pid", 
+        "int flavor", 
+        "void *arg", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "447", 
+        "int", 
+        "connectx", 
+        "8", 
+        "int socket", 
+        "const sa_endpoints_t *endpoints", 
+        "sae_associd_t associd", 
+        "unsigned int flags", 
+        "const struct iovec *iov", 
+        "unsigned int iovcnt", 
+        "size_t *len", 
+        "sae_connid_t *connid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "448", 
+        "int", 
+        "disconnectx", 
+        "3", 
+        "int s", 
+        "sae_associd_t aid", 
+        "sae_connid_t cid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "449", 
+        "int", 
+        "peeloff", 
+        "2", 
+        "int s", 
+        "sae_associd_t aid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "450", 
+        "int", 
+        "socket_delegate", 
+        "4", 
+        "int domain", 
+        "int type", 
+        "int protocol", 
+        "pid_t epid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "447", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "448", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "449", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "450", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "451", 
+        "int", 
+        "telemetry", 
+        "6", 
+        "uint64_t cmd", 
+        "uint64_t deadline", 
+        "uint64_t interval", 
+        "uint64_t leeway", 
+        "uint64_t arg4", 
+        "uint64_t arg5", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_generic.c"
+    ], 
+    [
+        "#if CONFIG_PROC_UUID_POLICY"
+    ], 
+    [
+        "452", 
+        "int", 
+        "proc_uuid_policy", 
+        "4", 
+        "uint32_t operation", 
+        "uuid_t uuid", 
+        "size_t uuidlen", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/proc_uuid_policy.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "452", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if CONFIG_MEMORYSTATUS"
+    ], 
+    [
+        "453", 
+        "int", 
+        "memorystatus_get_level", 
+        "1", 
+        "user_addr_t level", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_memorystatus.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "453", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "454", 
+        "int", 
+        "system_override", 
+        "2", 
+        "uint64_t timeout", 
+        "uint64_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_overrides.c"
+    ], 
+    [
+        "455", 
+        "int", 
+        "vfs_purge", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "456", 
+        "int", 
+        "sfi_ctl", 
+        "4", 
+        "uint32_t operation", 
+        "uint32_t sfi_class", 
+        "uint64_t time", 
+        "uint64_t *out_time", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sfi.c"
+    ], 
+    [
+        "457", 
+        "int", 
+        "sfi_pidctl", 
+        "4", 
+        "uint32_t operation", 
+        "pid_t pid", 
+        "uint32_t sfi_flags", 
+        "uint32_t *out_sfi_flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sfi.c"
+    ], 
+    [
+        "#if CONFIG_COALITIONS"
+    ], 
+    [
+        "458", 
+        "int", 
+        "coalition", 
+        "3", 
+        "uint32_t operation", 
+        "uint64_t *cid", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_coalition.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/osfmk/kern/coalition.c"
+    ], 
+    [
+        "459", 
+        "int", 
+        "coalition_info", 
+        "4", 
+        "uint32_t flavor", 
+        "uint64_t *cid", 
+        "void *buffer", 
+        "size_t *bufsize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_coalition.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "458", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "459", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if NECP"
+    ], 
+    [
+        "460", 
+        "int", 
+        "necp_match_policy", 
+        "3", 
+        "uint8_t *parameters", 
+        "size_t parameters_size", 
+        "struct necp_aggregate_result *returned_result", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/necp_client.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "460", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "461", 
+        "int", 
+        "getattrlistbulk", 
+        "5", 
+        "int dirfd", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "uint64_t options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c"
+    ], 
+    [
+        "462", 
+        "int", 
+        "clonefileat", 
+        "5", 
+        "int src_dirfd", 
+        "user_addr_t src", 
+        "int dst_dirfd", 
+        "user_addr_t dst", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "463", 
+        "int", 
+        "openat", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "int flags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "464", 
+        "int", 
+        "openat_nocancel", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "int flags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "465", 
+        "int", 
+        "renameat", 
+        "4", 
+        "int fromfd", 
+        "char *from", 
+        "int tofd", 
+        "char *to", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/renameat.c"
+    ], 
+    [
+        "466", 
+        "int", 
+        "faccessat", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "int amode", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "467", 
+        "int", 
+        "fchmodat", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "int mode", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "468", 
+        "int", 
+        "fchownat", 
+        "5", 
+        "int fd", 
+        "user_addr_t path", 
+        "uid_t uid", 
+        "gid", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "469", 
+        "int", 
+        "fstatat", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "470", 
+        "int", 
+        "fstatat64", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "user_addr_t ub", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "471", 
+        "int", 
+        "linkat", 
+        "5", 
+        "int fd1", 
+        "user_addr_t path", 
+        "int fd2", 
+        "user_addr_t link", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "472", 
+        "int", 
+        "unlinkat", 
+        "3", 
+        "int fd", 
+        "user_addr_t path", 
+        "int flag", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/unlinkat.c"
+    ], 
+    [
+        "473", 
+        "int", 
+        "readlinkat", 
+        "4", 
+        "int fd", 
+        "user_addr_t path", 
+        "user_addr_t buf", 
+        "size_t bufsize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "474", 
+        "int", 
+        "symlinkat", 
+        "3", 
+        "user_addr_t *path1", 
+        "int fd", 
+        "user_addr_t path2", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "475", 
+        "int", 
+        "mkdirat", 
+        "3", 
+        "int fd", 
+        "user_addr_t path", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "476", 
+        "int", 
+        "getattrlistat", 
+        "6", 
+        "int fd", 
+        "const char *path", 
+        "struct attrlist *alist", 
+        "void *attributeBuffer", 
+        "size_t bufferSize", 
+        "u_long options", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_attrlist.c"
+    ], 
+    [
+        "477", 
+        "int", 
+        "proc_trace_log", 
+        "2", 
+        "pid_t pid", 
+        "uint64_t uniqueid", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_proc.c"
+    ], 
+    [
+        "478", 
+        "int", 
+        "bsdthread_ctl", 
+        "4", 
+        "user_addr_t cmd", 
+        "user_addr_t arg1", 
+        "user_addr_t arg2", 
+        "user_addr_t arg3", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/pthread_shims.c"
+    ], 
+    [
+        "479", 
+        "int", 
+        "openbyid_np", 
+        "3", 
+        "user_addr_t fsid", 
+        "user_addr_t objid", 
+        "int oflags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "#if SOCKETS"
+    ], 
+    [
+        "480", 
+        "user_ssize_t", 
+        "recvmsg_x", 
+        "4", 
+        "int s", 
+        "struct msghdr_x *msgp", 
+        "u_int cnt", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "481", 
+        "user_ssize_t", 
+        "sendmsg_x", 
+        "4", 
+        "int s", 
+        "struct msghdr_x *msgp", 
+        "u_int cnt", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/uipc_syscalls.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "480", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "481", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "482", 
+        "uint64_t", 
+        "thread_selfusage", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_resource.c"
+    ], 
+    [
+        "#if CONFIG_CSR"
+    ], 
+    [
+        "483", 
+        "int", 
+        "csrctl", 
+        "3", 
+        "uint32_t op", 
+        "user_addr_t useraddr", 
+        "user_addr_t usersize", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_csr.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "483", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "484", 
+        "int", 
+        "guarded_open_dprotected_np", 
+        "7", 
+        "const char *path", 
+        "const guardid_t *guard", 
+        "u_int guardflags", 
+        "int flags", 
+        "int dpclass", 
+        "int dpflags", 
+        "int mode", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/guarded_open_dprotected_np.c"
+    ], 
+    [
+        "485", 
+        "user_ssize_t", 
+        "guarded_write_np", 
+        "4", 
+        "int fd", 
+        "const guardid_t *guard", 
+        "user_addr_t cbuf", 
+        "user_size_t nbyte", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "486", 
+        "user_ssize_t", 
+        "guarded_pwrite_np", 
+        "5", 
+        "int fd", 
+        "const guardid_t *guard", 
+        "user_addr_t buf", 
+        "user_size_t nbyte", 
+        "off_t offset", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "487", 
+        "user_ssize_t", 
+        "guarded_writev_np", 
+        "4", 
+        "int fd", 
+        "const guardid_t *guard", 
+        "struct iovec *iovp", 
+        "int iovcnt", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_guarded.c"
+    ], 
+    [
+        "488", 
+        "int", 
+        "renameatx_np", 
+        "5", 
+        "int fromfd", 
+        "char *from", 
+        "int tofd", 
+        "char *to", 
+        "u_int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/renamex.c"
+    ], 
+    [
+        "#if CONFIG_CODE_DECRYPTION"
+    ], 
+    [
+        "489", 
+        "int", 
+        "mremap_encrypted", 
+        "5", 
+        "caddr_t addr", 
+        "size_t len", 
+        "uint32_t cryptid", 
+        "uint32_t cputype", 
+        "uint32_t cpusubtype", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_mman.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "489", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "#if NETWORKING"
+    ], 
+    [
+        "490", 
+        "int", 
+        "netagent_trigger", 
+        "2", 
+        "uuid_t agent_uuid", 
+        "size_t agent_uuidlen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/network_agent.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "490", 
+        "int", 
+        "nosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "491", 
+        "int", 
+        "stack_snapshot_with_config", 
+        "3", 
+        "int stackshot_config_version", 
+        "user_addr_t stackshot_config", 
+        "size_t stackshot_config_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/stackshot.c"
+    ], 
+    [
+        "#if CONFIG_TELEMETRY"
+    ], 
+    [
+        "492", 
+        "int", 
+        "microstackshot", 
+        "3", 
+        "user_addr_t tracebuf", 
+        "uint32_t tracebuf_size", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/stackshot.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "492", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "493", 
+        "user_ssize_t", 
+        "grab_pgo_data", 
+        "4", 
+        "user_addr_t uuid", 
+        "int flags", 
+        "user_addr_t buffer", 
+        "user_ssize_t size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/pgo/profile_runtime.c"
+    ], 
+    [
+        "#if CONFIG_PERSONAS"
+    ], 
+    [
+        "494", 
+        "int", 
+        "persona", 
+        "5", 
+        "uint32_t operation", 
+        "uint32_t flags", 
+        "struct kpersona_info *info", 
+        "uid_t *id", 
+        "size_t *idlen", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_persona.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "494", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "495", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "496", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "497", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "498", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "499", 
+        "int", 
+        "work_interval_ctl", 
+        "4", 
+        "uint32_t operation", 
+        "uint64_t work_interval_id", 
+        "void *arg", 
+        "size_t len", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_work_interval.c"
+    ], 
+    [
+        "500", 
+        "int", 
+        "getentropy", 
+        "2", 
+        "void *buffer", 
+        "size_t size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/dev/random/randomdev.c"
+    ], 
+    [
+        "#if NECP"
+    ], 
+    [
+        "501", 
+        "int", 
+        "necp_open", 
+        "1", 
+        "int flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/necp_client.c"
+    ], 
+    [
+        "502", 
+        "int", 
+        "necp_client_action", 
+        "6", 
+        "int necp_fd", 
+        "uint32_t action", 
+        "uuid_t client_id", 
+        "size_t client_id_len", 
+        "uint8_t *buffer", 
+        "size_t buffer_size", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/net/necp_client.c"
+    ], 
+    [
+        "#else"
+    ], 
+    [
+        "501", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "502", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "#endif"
+    ], 
+    [
+        "503", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "504", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "505", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "506", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "507", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "508", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "509", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "510", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "511", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "512", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "513", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "514", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "515", 
+        "int", 
+        "ulock_wait", 
+        "4", 
+        "uint32_t operation", 
+        "void *addr", 
+        "uint64_t value", 
+        "uint32_t timeout", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_ulock.c"
+    ], 
+    [
+        "516", 
+        "int", 
+        "ulock_wake", 
+        "3", 
+        "uint32_t operation", 
+        "void *addr", 
+        "uint64_t wake_value", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/sys_ulock.c"
+    ], 
+    [
+        "517", 
+        "int", 
+        "fclonefileat", 
+        "4", 
+        "int src_fd", 
+        "int dst_dirfd", 
+        "user_addr_t dst", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "518", 
+        "int", 
+        "fs_snapshot", 
+        "6", 
+        "uint32_t op", 
+        "int dirfd", 
+        "user_addr_t name1", 
+        "user_addr_t name2", 
+        "user_addr_t data", 
+        "uint32_t flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/vfs/vfs_syscalls.c"
+    ], 
+    [
+        "519", 
+        "int", 
+        "enosys", 
+        "0", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/subr_xxx.c"
+    ], 
+    [
+        "520", 
+        "int", 
+        "terminate_with_payload", 
+        "7", 
+        "int pid", 
+        "uint32_t reason_namespace", 
+        "uint64_t reason_code", 
+        "void *payload", 
+        "uint32_t payload_size", 
+        "const char *reason_string", 
+        "uint64_t reason_flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_sig.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/terminate_with_reason.c"
+    ], 
+    [
+        "521", 
+        "void", 
+        "abort_with_payload", 
+        "6", 
+        "uint32_t reason_namespace", 
+        "uint64_t reason_code", 
+        "void *payload", 
+        "uint32_t payload_size", 
+        "const char *reason_string", 
+        "uint64_t reason_flags", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/bsd/kern/kern_exit.c", 
+        "https://opensource.apple.com/source/xnu/xnu-3789.1.32/libsyscall/wrappers/terminate_with_reason.c"
+    ]
+]

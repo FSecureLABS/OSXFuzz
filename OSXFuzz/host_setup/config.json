@@ -1,0 +1,23 @@
+{
+	"host_settings" :
+	{	
+		"vmrun_path"   			:	"/Applications/VMware Fusion.app/Contents/Library/vmrun",
+		"bughunt_start_src"		: 	"../start_bughunt.py",
+		"bughunt_binary_src"	: 	"/Users/mwr/Library/Developer/Xcode/DerivedData/OSXFuzz-fxnxjucufxkursenvbifwygucwzh/Build/Products/Debug/OSXFuzz", 
+		"crash_path"   			: 	"/Users/mwr/Documents/crashes",
+		"panic_path"   			: 	"/PanicDumps/",
+		"logger_addr"  			: 	"192.168.131.1",
+		"logger_port"  			: 	"1337",
+		"vmmanager_addr"		: 	"192.168.131.1",
+		"vmmanager_port"		: 	"8888",	
+		"vmx_files"				:	[
+			"/Users/mwr/Documents/Virtual Machines.localized/macOS 10.12 Beta.vmwarevm/macOS 10.12 Beta.vmx"
+		],
+		"prepd_snapshot_name"	: "prepd"
+	},
+	"guest_settings" : 
+	{
+			"vm_username"  		: 	"alex",
+			"launch_path"  		: 	"/tmp/start_bughunt.py"
+	}
+}
